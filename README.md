@@ -147,8 +147,3 @@ Enter operator (+, -, *, /) or = to get result: =
 ```
 
 ---
-
-## Upcoming Versions
-
-- **V4** — OOP: Refactor into a `Calculator` class
-- **V5** — Advanced features (history, more math operations like power, square root)
