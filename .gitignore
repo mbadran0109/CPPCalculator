@@ -1,0 +1,21 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Executables
+*.exe
+*.out
+*.app
+*.ilk
+*.suo
+*.ncb
+*.idb
+
+# VS Code workspace settings
+.vscode/
