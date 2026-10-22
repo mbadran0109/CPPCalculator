@@ -1,19 +1,23 @@
 #include <iostream>
 using namespace std;
-int x,y;
-float z;
+
 int main() {
-    cout << "Enter the first number: ";
-    cin >> x ;
-    cout << "Enter the second number: ";
-    cin >> y ;
-    z = x + y ;
-    cout << "The sum is: " << (int)z << endl;
-    z = (float)x / y ;
-    cout << "The division is: " << z << endl;
-    cout << "The product is: " << x * y << endl;
+    float a, b;
+
+    cout << "===== Calculator V1 =====" << endl;
+    cout << "Enter first number: ";
+    cin >> a;
+    cout << "Enter second number: ";
+    cin >> b;
+
+    cout << endl;
+    cout << a << " + " << b << " = " << a + b << endl;
+    cout << a << " - " << b << " = " << a - b << endl;
+    cout << a << " * " << b << " = " << a * b << endl;
+    cout << a << " / " << b << " = " << a / b << endl;
+
     cin.ignore();
     cin.get();
-    
+
     return 0;
 }
